@@ -1,0 +1,254 @@
+/* === General === */
+body {
+  background-color: #e6f0fa; /* azul muy claro */
+  padding: 20px;
+  font-family: 'Segoe UI', sans-serif;
+  color: #1a3c72; /* azul oscuro */
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+
+.footer {
+  background-color: #f8f9fa;
+  color: #212529;
+  font-size: 0.9rem;
+  border-top: 1px solid #8db4db;
+}
+
+
+
+
+h1, h2, h3 {
+  color: #1a3c72; /* azul oscuro */
+  transition: color 0.3s ease;
+}
+
+.mt-5 {
+  margin-top: 3rem !important;
+}
+
+/* === Landing Page === */
+#landingPage {
+  background-color: #ffffff; /* blanco puro */
+  color: #1a3c72; /* azul oscuro */
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+  border: 1px solid #a3b8f0; /* azul pastel */
+  border-radius: 0.5rem;
+}
+
+#landingPage img {
+  max-width: 100%;
+  height: auto;
+}
+
+#landingPage input {
+  font-size: 1rem;
+}
+
+/* === Preguntas === */
+.card-question {
+  background-color: #ffffff; /* blanco puro */
+  border: 1px solid #a3b8f0; /* azul pastel */
+  border-radius: 0.5rem;
+  padding: 15px;
+  margin-bottom: 15px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+  color: #1a3c72; /* azul oscuro */
+}
+
+/* === Resultado / Historial === */
+.result-section,
+.history-section {
+  display: none;
+  margin-top: 30px;
+}
+
+.result-section {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #254d9b; /* azul medio-fuerte */
+}
+
+/* === Tabla de historial === */
+.table {
+  background-color: #ffffff; /* blanco puro */
+  transition: background-color 0.3s ease;
+  color: #1a3c72; /* azul oscuro */
+}
+
+.table thead {
+  background-color: #dbe4fb; /* azul muy claro */
+}
+
+.table th {
+  color: #254d9b; /* azul medio-fuerte */
+}
+
+/* === Lista de interacción IA === */
+.list-group-item {
+  background-color: #ffffff; /* blanco puro */
+  transition: background-color 0.3s ease, color 0.3s ease;
+  color: #1a3c72; /* azul oscuro */
+}
+
+.list-group-item ul {
+  margin-top: 0.5rem;
+  margin-bottom: 0;
+  padding-left: 1.2rem;
+}
+
+/* === Form inputs === */
+.form-control,
+.form-select {
+  background-color: #dbe4fb; /* azul muy claro */
+  color: #1a3c72; /* azul oscuro */
+  border: 1px solid #a3b8f0; /* azul pastel */
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+.form-control::placeholder {
+  color: #748cbb; /* azul medio */
+}
+
+/* === Botones === */
+.btn {
+  background-color: #2c5cbf; /* azul vibrante */
+  border-color: #2c5cbf;
+  color: white;
+  transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: #254d9b; /* azul medio-fuerte */
+  border-color: #254d9b;
+  color: white;
+}
+
+
+/* =============================== */
+/* === Modo Oscuro ============== */
+/* =============================== */
+body.dark-mode {
+  background-color: #12263f; /* azul muy oscuro */
+  color: #a8bee8; /* azul claro */
+}
+
+/* Textos */
+body.dark-mode h1,
+body.dark-mode h2,
+body.dark-mode h3,
+body.dark-mode label {
+  color: #a8bee8; /* azul claro */
+}
+
+/* Landing */
+body.dark-mode #landingPage {
+  background-color: #1c2a55; /* azul oscuro */
+  color: #a8bee8; /* azul claro */
+  border-color: #3651a1; /* azul medio */
+}
+
+/* Cards */
+body.dark-mode .card-question {
+  background-color: #1c2a55; /* azul oscuro */
+  color: #a8bee8; /* azul claro */
+  border-color: #3651a1; /* azul medio */
+}
+
+/* Inputs */
+body.dark-mode .form-control,
+body.dark-mode .form-select {
+  background-color: #29417e; /* azul medio */
+  color: #a8bee8; /* azul claro */
+  border-color: #3651a1; /* azul medio */
+}
+
+body.dark-mode .form-control::placeholder {
+  color: #8ea1d2; /* azul claro suave */
+}
+
+/* Resultados */
+body.dark-mode .result-section,
+body.dark-mode .list-group-item,
+body.dark-mode .table {
+  background-color: #1e1e2f; /* fondo neutro oscuro con tinte azul */
+  color: #a8bee8; /* azul claro */
+  border-color: #3651a1; /* azul medio */
+}
+
+body.dark-mode .table-striped > tbody > tr:nth-of-type(odd) {
+  background-color: #12263f; /* azul muy oscuro */
+}
+
+body.dark-mode .table-striped > tbody > tr:nth-of-type(even) {
+  background-color: #1c2a55; /* azul oscuro */
+}
+
+/* Botón modo oscuro */
+body.dark-mode .btn-outline-dark {
+  border-color: #a8bee8;
+  color: #a8bee8;
+}
+
+body.dark-mode .btn-outline-dark:hover {
+  background-color: #a8bee8;
+  color: #12263f;
+}
+
+/* Colores para otros botones (heredados de Bootstrap) */
+body.dark-mode .btn-primary {
+  background-color: #2c5cbf;
+  border-color: #2c5cbf;
+}
+
+body.dark-mode .btn-success {
+  background-color: #3a7d3a;
+  border-color: #3a7d3a;
+}
+
+body.dark-mode .btn-secondary {
+  background-color: #3651a1;
+  border-color: #3651a1;
+}
+
+/* === Animación para mostrar resultado === */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.result-section.animate {
+  animation: fadeIn 0.6s ease-out;
+}
+
+#progressBarContainer {
+  box-shadow: inset 0 1px 3px rgba(0,0,0,0.1);
+}
+
+#progressBar {
+  border-radius: 10px 0 0 10px;
+}
+
+/* Modo oscuro */
+body.dark-mode #progressBarContainer {
+  background-color: #3651a1; /* azul medio */
+  box-shadow: inset 0 1px 3px rgba(0,0,0,0.5);
+}
+
+body.dark-mode #progressBar {
+  background-color: #2c5cbf; /* azul vibrante */
+}
+
+body.dark-mode .footer {
+  background-color: #242b38;
+  color: #f1f1f1;
+  border-top: 1px solid #444;
+}
