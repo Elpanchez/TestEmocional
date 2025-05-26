@@ -53,24 +53,6 @@ Según el promedio final de respuestas (de 1 a 5), se brinda una interpretación
 
 ---
 
-## 📁 Estructura del proyecto
-
-TestEmocional
-├── index.html
-├── script.js
-├── styles.css
-└── README.md
-
-
----
-
-## 👤 Autor
-
-**Santiago Sánchez Ribero**  
-📄 C.C. 01220371063
-
----
-
 ## 📌 Notas adicionales
 
 - Esta aplicación **no sustituye** ayuda profesional. El objetivo es orientar de manera general sobre el estado emocional del usuario.
